@@ -17,4 +17,4 @@ done
 
 #LOCAL - consider putting profile commands in a file in ~/.profile.d/*.sh instead
 
-umask 022
+umask 027
