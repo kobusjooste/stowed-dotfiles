@@ -1,7 +1,7 @@
 .PHONY: doc install uninstall
 
 #set this to ~ when you're done testing
-DEST=~/tmp
+DEST=~/tmp/home
 
 #'packages' are synonymous with subdirectories
 PKGS=bash git
