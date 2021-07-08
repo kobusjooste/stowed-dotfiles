@@ -1,0 +1,24 @@
+[user]
+    name = "Your Name"
+    email = "your@email.address"
+[credential]
+    helper = store
+[core]
+    editor = nvim
+[init]
+    defaultBranch = main
+[diff]
+    colorMoved = zebra
+[difftool]
+    prompt = true
+[merge]
+    ff = no
+[mergetool]
+    prompt = false
+[pull]
+    rebase = true
+    ff = yes
+[fetch]
+    prune = true
+[push]
+    default = simple
