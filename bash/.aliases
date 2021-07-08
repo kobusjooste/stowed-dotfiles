@@ -2,6 +2,7 @@
 
 unalias -a
 
+#source our aliases in .alias.d/
 for afile in "$HOME"/.alias.d/*.ali ; do
     source "$afile"
 done

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#general purpose aliases
+
 alias  grep='grep  --color=auto'
 
 export lsflags='--color=auto --group-directories-first'

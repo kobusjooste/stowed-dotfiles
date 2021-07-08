@@ -5,4 +5,5 @@
 
 PS1='[\u@\h \W]\$ '
 
+#pull in our aliases
 [[ -f ~/.aliases ]] && source ~/.aliases

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-umask 027
+#this profile script ties everything together
 
 #export LANG="en_US.UTF-8"
 #export LC_ALL="en_US.UTF-8"
@@ -10,6 +10,7 @@ umask 027
 [[ -d ~/bin ]]        && export PATH=~/bin:$PATH
 [[ -d ~/.local/bin ]] && export PATH=~/.local/bin:$PATH
 
+#source our profile files under .progile.d
 for file in "$HOME"/.profile.d/*.sh ; do
     source "$file"
 done

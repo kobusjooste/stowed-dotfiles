@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#set up our shell
+
 #history
 shopt -s histappend
 shopt -s cmdhist
