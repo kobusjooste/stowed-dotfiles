@@ -1,0 +1,10 @@
+#!/bin/bash
+
+alias  grep='grep  --color=auto'
+
+export lsflags='--color=auto --group-directories-first'
+
+alias   l='command ls ${lsflags} -CF'
+alias  la='command ls ${lsflags} -A'
+alias  ls='command ls ${lsflags}'
+alias  ll='command ls ${lsflags} -l'

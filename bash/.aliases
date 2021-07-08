@@ -1,0 +1,9 @@
+#!/bin/bash
+
+unalias -a
+
+for afile in "$HOME"/.alias.d/*.ali ; do
+    source "$afile"
+done
+
+#LOCAL - consider putting aliases in a file in ~/.alias.d/*.ali instead
