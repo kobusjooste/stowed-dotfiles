@@ -1,4 +1,4 @@
-.PHONY: install
+.PHONY: doc install uninstall
 
 DEST=~/tmp
 
